@@ -1,0 +1,198 @@
+/* Import Fonts and Initialize */
+@import url("https://fonts.googleapis.com/css2?family=REM&display=swap%27");
+@import url("https://fonts.googleapis.com/css2?family=Chivo:wght@500&family=Open+Sans:wght@800&family=Roboto:wght@300;500;700;900&display=swap");
+
+body {
+  margin: 0;
+  background-color: #cdd1d7;
+  font-size: calc(1vw);
+}
+
+.MainHeader {
+  display: flex;
+  justify-content: space-between;
+  background-color: #0c4489;
+  font-family: "REM";
+  
+  width: 100%;
+  font-size: calc(1vw);
+  align-items: center;
+}
+
+.MainHeaderBackground {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+ol {
+  margin-right: 10px;
+  align-items: center;
+}
+
+ul {
+  display: inline;
+  color: whitesmoke;
+}
+
+a {
+  transition-duration: 1.5s;
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.Logo {
+  height: 60px;
+  width: 60px;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.Name {
+  align-items: center;
+  color: whitesmoke;
+  font-family: "REM";
+}
+
+.LogoTitle {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 0.5%;
+}
+
+a:hover {
+  transition-duration: 2s;
+  background-color: #236bc2;
+  border-radius: 10%;
+}
+
+.News-Header {
+
+margin-top: 5%;
+display: flex;
+justify-content: center;
+color: #0c4489;
+font-size: 3rem;
+font-family: 'Rem';
+margin-bottom: 4%;
+
+}
+
+
+.News-Container {
+
+display: flex;
+width: 100%;
+justify-content: center;
+margin-bottom: 4%;
+
+}
+
+.News-Row1 {
+display: flex;
+justify-content: space-around;
+width:90%;
+
+
+}
+
+.News-1-Style {
+
+
+  display:flex;
+  background-color: #0c4489;
+  border: black;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 50px;
+  width: 30%;
+  height: 100%;
+  transition-duration: 1.5s;
+
+
+
+}
+
+.News-1-Style:hover {
+
+transition-duration: 2s;
+background-color: #236bc2;
+
+}
+
+
+
+.News-Content-Holder {
+
+display: flex;
+flex-direction: column;
+
+}
+
+
+.News-Image {
+
+  object-fit: contain;
+  width: 100%;
+  border-radius: 50px 50px 0px 0px;
+  border-bottom: 5px solid black;
+  
+}
+
+.News-Headers {
+
+color: white;
+font-family: 'Rem';
+margin-left:4%;
+display: flex;
+justify-content: start;
+margin-right: 3%;
+
+
+}
+
+.footer-holder {
+
+  width: 100%;
+  background-color: #0c4489;
+  display: flex;
+  margin-top: 10px;
+  height: 150px;
+  justify-content: center;
+  
+  }
+  
+  .Footer-Header {
+  
+  margin-bottom: 0;
+  
+  }
+  
+  .footer {
+  font-family: 'Rem';
+  color: white;
+  justify-content: start;
+  width: 90%;
+  background-color:#0c4489;
+  }
+  
+  
+  .Social-Media {
+  
+  background-color: #0c4489;
+  display: flex;
+  justify-content: start;
+  
+  }
+  
+  .image {
+  
+  margin-right: 10px;
+  border-radius: 10px;
+  height: 60px;
+  width: 60px;
+  margin-top: 9.69px;
+  
+  
+  }

@@ -1,0 +1,62 @@
+/* Import Fonts and Initialize */
+@import url("https://fonts.googleapis.com/css2?family=REM&display=swap%27");
+@import url("https://fonts.googleapis.com/css2?family=Chivo:wght@500&family=Open+Sans:wght@800&family=Roboto:wght@300;500;700;900&display=swap");
+
+body {
+  margin: 0;
+  background-color: #236bc2;
+  font-size: calc(1vw);
+}
+
+.MainHeader {
+  display: flex;
+  justify-content: space-between;
+  background-color: #0c4489;
+  font-family: "REM";
+  position: fixed;
+  width: 100%;
+}
+
+.MainHeaderBackground {
+  width: 100%;
+  height: 81.625px;
+}
+
+ol {
+  margin-right: 10px;
+  margin-top: 31.19px;
+}
+
+ul {
+  display: inline;
+  color: whitesmoke;
+}
+
+a {
+  transition-duration: 1.5s;
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.Logo {
+  height: 60px;
+  width: 60px;
+  margin-top: 9.69px;
+}
+
+.Name {
+  margin-top: 20.19px;
+  color: whitesmoke;
+}
+
+.LogoTitle {
+  display: flex;
+  justify-content: flex-start;
+}
+
+a:hover {
+  transition-duration: 2s;
+  background-color: #236bc2;
+  border-radius: 10%;
+}
+

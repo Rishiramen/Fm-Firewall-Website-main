@@ -1,0 +1,331 @@
+/* Import Fonts and Initialize */
+@import url("https://fonts.googleapis.com/css2?family=REM&display=swap%27");
+@import url("https://fonts.googleapis.com/css2?family=Chivo:wght@500&family=Open+Sans:wght@800&family=Roboto:wght@300;500;700;900&display=swap");
+
+body {
+  margin: 0;
+  background-color: #cdd1d7;
+  font-size: calc(1vw);
+}
+
+.MainHeader {
+  display: flex;
+  justify-content: space-between;
+  background-color: #0c4489;
+  font-family: "REM";
+  
+  width: 100%;
+  font-size: calc(1vw);
+  align-items: center;
+}
+
+.MainHeaderBackground {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+ol {
+  margin-right: 10px;
+  align-items: center;
+}
+
+ul {
+  display: inline;
+  color: whitesmoke;
+}
+
+a {
+  transition-duration: 1.5s;
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.Logo {
+  height: 60px;
+  width: 60px;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.Name {
+  align-items: center;
+  color: whitesmoke;
+  font-family: "REM";
+}
+
+.LogoTitle {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 0.5%;
+}
+
+.TeamHeader {
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  color: whitesmoke;
+  font-family: "Rem";
+  margin-top: 5%;
+  color: #0c4489;
+}
+
+.Team-Photo-Container {
+  display: flex;
+  width: 100%;
+
+  margin-bottom: 4%;
+  justify-content: center;
+  margin-top: 3%;
+}
+
+.Team-Photo {
+  display: flex;
+
+  display: flex;
+  border: black;
+  border-width: 7.5px;
+  border-style: solid;
+  object-fit: cover;
+  width: 83%;
+  border-radius: 20px;
+  height: 300px;
+}
+
+.Team-One-Container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.Team-One {
+  display: flex;
+
+  justify-content: space-around;
+  width: 85%;
+  color: whitesmoke;
+  font-family: "Rem";
+  margin-bottom: 20px;
+}
+
+.Krish {
+  width: 20%;
+  text-align: center;
+  margin-left: 10px;
+  margin-top: 10%;
+}
+.Abhinav {
+  width: 20%;
+  text-align: center;
+  margin-left: 10px;
+  margin-top: 10%;
+}
+.Mutasim {
+  width: 20%;
+  text-align: center;
+  margin-left: 10px;
+  margin-top: 10%;
+}
+
+.Team-Two-Container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.Team-Two {
+  display: flex;
+
+  justify-content: space-around;
+  width: 85%;
+  color: whitesmoke;
+  font-family: "Rem";
+  margin-bottom: 20px;
+}
+
+.Nihal {
+  width: 26%;
+  text-align: center;
+  margin-left: 10px;
+  margin-top: 10%;
+}
+.Ekansh {
+  width: 26%;
+  text-align: center;
+  margin-left: 10px;
+  margin-top: 10%;
+}
+.Reetham {
+  width: 26%;
+  text-align: center;
+  margin-left: 10px;
+  margin-top: 10%;
+}
+
+.Team-Three-Container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.Team-Three {
+  display: flex;
+
+  justify-content: space-around;
+  width: 85%;
+  color: whitesmoke;
+  font-family: "Rem";
+  margin-bottom: 20px;
+}
+
+.Rishi {
+  width: 26%;
+  text-align: center;
+  margin-left: 10px;
+  margin-top: 10%;
+}
+.Matthew {
+  width: 26%;
+  text-align: center;
+  margin-left: 10px;
+  margin-top: 10%;
+}
+.Adhitya {
+  width: 26%;
+  text-align: center;
+  margin-left: 10px;
+  margin-top: 10%;
+}
+
+.Team-Four-Container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.Team-Four {
+  display: flex;
+
+  justify-content: space-around;
+  width: 85%;
+  color: whitesmoke;
+  font-family: "Rem";
+  margin-bottom: 20px;
+}
+
+.Rijoy {
+  width: 26%;
+  text-align: center;
+  margin-left: 10px;
+  margin-top: 10%;
+}
+.Vrajesh {
+  width: 26%;
+  text-align: center;
+  margin-left: 10px;
+  margin-top: 10%;
+}
+.Sundar {
+  width: 26%;
+  text-align: center;
+  margin-left: 10px;
+  margin-top: 10%;
+}
+
+.generic-background-alt {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(60, 134, 238);
+  border-radius: 10%;
+  width: 31%;
+  opacity: 0;
+}
+
+.Defualt-Image {
+  height: 100%;
+  width: 40%;
+
+  border-radius: 0px 20px 20px 0px;
+  margin-left: 10px;
+  object-fit: cover;
+}
+
+a:hover {
+  transition-duration: 2s;
+  background-color: #236bc2;
+  border-radius: 10px;
+}
+
+.generic-background {
+  display: flex;
+  justify-content: space-between;
+  background-color: #0c4489;
+  border-radius: 20px;
+  width: 31%;
+  transition-duration: 1.5s;
+  border: black;
+  border-style: solid;
+  border-width: 3px;
+  }
+  
+
+.generic-background:hover {
+  transition-duration: 2s;
+  background-color: #236bc2;
+}
+
+.Name-Row {
+  display: flex;
+}
+
+.Role {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 10px;
+}
+
+.footer-holder {
+
+  width: 100%;
+  background-color: #0c4489;
+  display: flex;
+  margin-top: 10px;
+  height: 150px;
+  justify-content: center;
+  
+  }
+  
+  .Footer-Header {
+  
+  margin-bottom: 0;
+  
+  }
+  
+  .footer {
+  font-family: 'Rem';
+  color: white;
+  justify-content: start;
+  width: 90%;
+  background-color:#0c4489;
+  }
+  
+  
+  .Social-Media {
+  
+  background-color: #0c4489;
+  display: flex;
+  justify-content: start;
+  
+  }
+  
+  .image {
+  
+  margin-right: 10px;
+  border-radius: 10px;
+  height: 60px;
+  width: 60px;
+  margin-top: 9.69px;
+  
+  
+  }
