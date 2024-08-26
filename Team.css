@@ -110,6 +110,7 @@ a {
   height: 300px;
 }
 
+
 .Team-One-Container {
   display: flex;
   justify-content: space-around;
@@ -268,11 +269,11 @@ a {
   object-fit: cover;
 }
 
-a:hover {
+/* :hover {
   transition-duration: 1s;
   background-color: #236bc2;
   border-radius: 10px;
-}
+} */
 
 .generic-background {
   display: flex;
